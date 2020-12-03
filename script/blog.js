@@ -4,6 +4,6 @@ Script para a pagina blog com o seguinte objetivo:
 */
 
 window.onload = function() { 
-    document.getElementById('user').textContent = "Olá " + localStorage.name+"!";
+    document.getElementById('user').textContent = `Olá ${localStorage.name}!`;
     
 };
