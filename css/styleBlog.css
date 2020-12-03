@@ -134,7 +134,7 @@ p {
     flex-grow: 0;
 }
 
-.listagem-posts {
+.ordList {
     position: static;
     width: 264px;
     height: 21px;
