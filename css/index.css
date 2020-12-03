@@ -1,0 +1,240 @@
+html {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+h4 {
+    line-height: normal;
+}
+
+body, ul, li, input, button {
+    background: #E5E5E5;
+    font: 400 1.8rem/1 'Montserrat', sans-serif;
+    color: #0A0A0B;
+}
+
+.logo {
+    width: 100px;
+    height: 38px;
+    position: absolute;
+    top: -48px;
+    left: calc(50% - 50px);
+  }
+
+h1 {
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+.footerBoxLogin {
+    position:relative;
+    top:550px;
+    left: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #0A0A0B;
+
+}
+
+
+.boxLogin {
+    width: 392px;
+    height: 450px;
+    background: #F7F8FC;
+    color: #0a0a0b;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 48px 40px;
+  }
+  
+  
+  h1 {
+    padding: 0 0 20px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Red Hat Display", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .boxLogin label {
+    position: static;
+    width: 41px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  
+    color: #0a0a0b;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 3px 0px;
+  }
+  .required:after {
+    content: " *";
+    color:#DF6B6B;;
+  }
+  
+  .inputs {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .check {
+    width: fit-content;
+    margin-bottom: 20px;
+
+  }
+  .check_label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+  
+    letter-spacing: -0.5px;
+  
+    color: #0a0a0b;
+    font-weight: 400;
+    
+    
+  }
+  .boxLogin input[type="text"],
+  input[type="password"] {
+    border: none;
+  
+    background: #eeecf5;
+    outline: none;
+    height: 40px;
+    color: #0a0a0b;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 4px;
+  }
+  
+  .boxLogin input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0a0a0b;
+    color: #fafafc;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 4x;
+  }
+  .boxLogin input[type="button"]:hover {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #cccccc;
+    color: #0a0a0b;
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 4x;
+  }
+
+  input[type='checkbox'] {
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    vertical-align:middle;
+    margin: 15px 0px 10px;
+}
+
+input[type='checkbox']:checked {
+    background-image: url('../img/check.svg');
+    background-size: 100%;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+  
+  .boxLogin a {
+    width: fit-content;
+    height: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+  
+    color: #0a0a0b;
+  
+    text-decoration: none;
+  }
+  .footerBox {
+    text-align: center;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 449px;
+    height: 507px;
+    left: 524px;
+    top: 221px;
+  }
+  .footerBoxLogin a{
+    color: #0a0a0b;
+  
+    text-decoration: none;
+  }
+  
+  
