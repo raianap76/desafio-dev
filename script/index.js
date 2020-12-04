@@ -9,6 +9,9 @@ document.getElementById('btn').addEventListener("click", function() {
     let email =  document.getElementById('email').value;
   
     let name = email.split("@");
+    /**
+     * Passar o nome para maiusculas, e remover numeros do nome.
+     */
     let nameFinaly = name[0].toUpperCase().replace(/[^a-z]/gi,'');
     localStorage.setItem('name', nameFinaly);
 
